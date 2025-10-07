@@ -84,6 +84,7 @@ end_time = time.time()
 elapsed_time = end_time - start_time
 print(f"Czas wykonania: {elapsed_time:.6f} sekund")
 
+
 #bez numby poetry run python lab02.py -n 100 -J 2 -b 0.01 -B 1 -s 100 trwało 170 sekund
 #teraz z numbą trwa 134 sekundy
 

@@ -1,0 +1,50 @@
+[
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 16:10 Przyjazd: 19:46",
+        "Czas": "3:36",
+        "Przesiadki": "0"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 16:14 Przyjazd: 20:36",
+        "Czas": "4:22",
+        "Przesiadki": "1"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 16:40 Przyjazd: 18:58",
+        "Czas": "2:18",
+        "Przesiadki": "0"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 17:35 Przyjazd: 21:42",
+        "Czas": "4:07",
+        "Przesiadki": "1"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 17:40 Przyjazd: 19:58",
+        "Czas": "2:18",
+        "Przesiadki": "0"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 18:10 Przyjazd: 21:55",
+        "Czas": "3:45",
+        "Przesiadki": "0"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 18:22 Przyjazd: 22:21",
+        "Czas": "3:59",
+        "Przesiadki": "1"
+    },
+    {
+        "Data": "07.02.25",
+        "Czas/Status": "Odjazd: 18:40   Przyjazd: 21:00",
+        "Czas": "2:20",
+        "Przesiadki": "0"
+    }
+]

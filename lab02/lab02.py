@@ -7,10 +7,6 @@ start_time = time.time()
 import numpy as np
 from PIL import Image, ImageDraw
 
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-from IPython.display import HTML
-
 parser = argparse.ArgumentParser(description="ISING")
 parser.add_argument('--net_size', '-n', type=int, default=20, help="Size of net  (default 20).", required = True)
 parser.add_argument('--j_value', '-J', type=float, default=1, help="Value of J (default 1)", required = True)
@@ -73,8 +69,8 @@ class Ising:
                     image.save(f"{self.image_prefix}_{step}.png")
                     images.append(image)
 
-            #if self.animation_file:
-                #images[0].save(self.animation_file,save_all=True,append_images=images[1:],duration=100,loop=0)
+            if self.animation_file:
+                images[0].save(self.animation_file,save_all=True,append_images=images[1:],duration=100,loop=0)
             if self.magnetization_file:
                 with open(self.magnetization_file, 'w') as f:
                     for step, m in enumerate(self.magnetization):
